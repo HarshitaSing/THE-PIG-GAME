@@ -37,7 +37,7 @@ document.querySelector('.btn-roll').addEventListener('click', function()  // cre
 		scores[activePlayer] += roundScore; 
 		document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
 		
-		if(scores[activePlayer] >= 20)
+		if(scores[activePlayer] >= 80)
 		{
 			document.getElementById('name-' + activePlayer).textContent = 'WINNER WINNER CHICKEN DINNER';
 			document.querySelector('.dice').style.display = 'none';	
